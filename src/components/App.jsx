@@ -1,6 +1,6 @@
 
-import '../src/components/App.css'
-import { Product } from './components/Product';
+import './App.css'
+import { Product } from './Product';
 
 function App() {
 
@@ -16,3 +16,5 @@ function App() {
 }
 
 export default App
+
+
