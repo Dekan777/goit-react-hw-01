@@ -27,6 +27,9 @@ export default function App() {
       <Alert variant="warning">
         Please update your profile contact information
       </Alert>
+
+
+      
     </>
   );
 }
