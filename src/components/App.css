@@ -4,6 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+ul {
+  list-style: none;
+}
+
+
+img {
+  border-radius: 30px; 
+}
 
 .logo {
   height: 6em;
