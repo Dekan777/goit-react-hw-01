@@ -4,14 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-ul {
-  list-style: none;
-}
-
-
-img {
-  border-radius: 30px; 
-}
 
 .logo {
   height: 6em;
@@ -25,7 +17,7 @@ img {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-   
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
