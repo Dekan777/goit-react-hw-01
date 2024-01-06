@@ -1,13 +1,7 @@
 import "./App.css";
 import { favouriteBook, BookList, Card } from "./Product";
+import { Alert } from "./Alert";
 
-const alertStyles = {
-  margin: 8,
-  padding: "12px 16px",
-  borderRadius: 4,
-  backgroundColor: "gray",
-  color: "white",
-};
 
 export default function App() {
   return (
@@ -21,9 +15,18 @@ export default function App() {
         <h1>Card title</h1>
 
       </Card>
-      <p style={alertStyles}>Please update your email!</p>
-      <p style={alertStyles}>There was an error during transaction!</p>
-      <p style={alertStyles}>Payment received, thank you for your purchase!</p>
+      <Alert variant="info">
+        Would you like to browse our recommended products?
+      </Alert>
+      <Alert variant="error">
+        There was an error during your last transaction
+      </Alert>
+      <Alert variant="success">
+        Payment received, thank you for your purchase
+      </Alert>
+      <Alert variant="warning">
+        Please update your profile contact information
+      </Alert>
     </>
   );
 }
