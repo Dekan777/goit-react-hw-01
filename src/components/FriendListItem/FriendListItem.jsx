@@ -3,7 +3,7 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
     <div className="item">
       <img className="avatar" src={avatar} alt="Avatar" width="48" />
       <p className="name">{name}</p>
-      <p className="status">{isOnline}</p>
+      <p className="status">{isOnline ? "Online" : "Offline"}</p>
     </div>
   );
 };
