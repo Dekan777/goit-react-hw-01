@@ -6,21 +6,37 @@
   color: red;
 }
 
-
-
 .item {
   border: 1px solid #555454;
   border-radius: 10px;
-  padding: 10px;
+  padding: 40px;
 }
 .status {
   display: flex;
-    justify-content: center;
+  justify-content: center;
   font-size: 1rem;
 }
 
 .name {
   font-size: 1.3rem;
   display: flex;
-    justify-content: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 320px) {
+  .item {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .item {
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    padding: 40px;
+  }
 }
