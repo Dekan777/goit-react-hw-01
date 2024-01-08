@@ -10,7 +10,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .description {
   display: flex;
   flex-direction: column;
@@ -19,15 +18,14 @@
 }
 
 .name {
-  margin-bottom: 10px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .location,
 .tag {
   color: #888;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 .location {
@@ -50,7 +48,7 @@
 }
 
 .stats {
-display: flex;
+  display: flex;
   justify-content: space-around;
 }
 
@@ -67,4 +65,5 @@ ul.stats {
 
 ul.stats li span {
   color: rgb(13, 13, 13);
+  font-size: 1.2rem;
 }
