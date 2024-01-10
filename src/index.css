@@ -1,0 +1,15 @@
+@import url("./css/reset.css");
+
+body {
+  font-family: Neue Montreal;
+  font-style: normal;
+  font-weight: 400;
+  color: #010101;
+  background-color: var(--background);
+}
+
+.container {
+  max-width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+}
