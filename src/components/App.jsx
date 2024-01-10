@@ -1,7 +1,7 @@
 import "./App.module.css";
-import userData from "../helpers/userData.json";
-import friends from "../helpers/friends.json";
-import transactions from "../helpers/transactions.json";
+import userData from "../data/userData.json";
+import friends from "../data/friends.json";
+import transactions from "../data/transactions.json";
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 import { Profile } from "./Profile/Profile";
 import { FriendList } from "./FriendList/FriendList";
