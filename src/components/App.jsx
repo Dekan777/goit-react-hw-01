@@ -14,11 +14,9 @@ export const App = () => {
         <li>
           <Profile user={userData} />
         </li>
-
         <li>
           <FriendList friends={friends} />
         </li>
-
         <li>
           <TransactionHistory items={transactions} />
         </li>
