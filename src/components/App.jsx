@@ -10,11 +10,19 @@ import { FriendList } from './FriendList/FriendList';
 export const App = () => {
   return (
     <>
-      <Profile user={userData} />
+      <ul>
+        <li>
+          <Profile user={userData} />
+        </li>
 
-      <FriendList friends={friends} />
+        <li>
+          <FriendList friends={friends} />
+        </li>
 
-      <TransactionHistory items={transactions} />
+        <li>
+          <TransactionHistory items={transactions} />
+        </li>
+      </ul>
     </>
   );
 };
