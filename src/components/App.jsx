@@ -7,7 +7,7 @@ import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import { Profile } from './Profile/Profile';
 import { FriendList } from './FriendList/FriendList';
 
-export default function App() {
+export const App = () => {
   return (
     <>
       <Profile user={userData} />
@@ -17,4 +17,4 @@ export default function App() {
       <TransactionHistory items={transactions} />
     </>
   );
-}
+};
