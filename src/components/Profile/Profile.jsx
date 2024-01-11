@@ -1,11 +1,11 @@
-import css from "./Profile.module.css";
+import css from './Profile.module.css';
 
-export const Profile = ({ name, tag, location, image, stats }) => {
+export const Profile = ({ user: { name, tag, location, avatar, stats } }) => {
   return (
     <div className={css.App}>
       <div className={css.profile}>
         <div className={css.description}>
-          <img src={image} alt="User avatar" className={css.avatar} />
+          <img src={avatar} alt="User avatar" className={css.avatar} />
           <p className={css.name}>{name}</p>
           <p className={css.tag}>{tag}</p>
           <p className={css.location}>{location}</p>
